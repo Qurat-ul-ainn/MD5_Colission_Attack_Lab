@@ -7,8 +7,8 @@ Instruction: https://seedsecuritylabs.org/Labs_16.04/PDF/Crypto_MD5_Collision.pd
 Generate a prefix.txt containing 64 ```'9'```:
 
 
-python3 -c "print('9'*64,end='')" > prefix.txt
-ls -ld prefix.txt
+```python3 -c "print('9'*64,end='')" > prefix.txt
+ls -ld prefix.txt```
 
 Use it to create 2 files with the same MD5 value:
 
